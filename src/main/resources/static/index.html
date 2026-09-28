@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleekLink | Modern URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-link"></i> SleekLink
+            </div>
+            <p>Shorten your links with style.</p>
+        </header>
+
+        <main class="glass-panel">
+            <form id="url-form">
+                <div class="input-group">
+                    <i class="fa-solid fa-earth-americas icon"></i>
+                    <input type="url" id="original-url" placeholder="Paste your long URL here..." required>
+                    <button type="submit" id="shorten-btn">
+                        <span>Shorten</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </form>
+
+            <div id="result-container" class="hidden">
+                <div class="result-box">
+                    <p class="label">Your short link is ready!</p>
+                    <div class="link-group">
+                        <a href="#" id="short-link" target="_blank"></a>
+                        <button id="copy-btn" title="Copy to clipboard">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Generating magic link...</p>
+            </div>
+            
+            <div id="error-message" class="hidden"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
