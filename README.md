@@ -3,7 +3,6 @@
 A modern, visually stunning, and lightning-fast URL shortener built with **Java** and **Spring Boot**.
 
 ## ✨ Features
-- **Beautiful UI:** Custom glassmorphism design with animated elements (no external CSS libraries).
 - **Instant Redirects:** Fast and efficient URL resolution.
 - **Auto-generated Hashes:** Generates unique 8-character identifiers automatically.
 - **Production Ready:** Pre-configured with a `Dockerfile` and PostgreSQL support for easy cloud deployment (e.g., Render, Railway).
