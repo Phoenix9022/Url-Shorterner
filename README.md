@@ -14,7 +14,7 @@ A modern, visually stunning, and lightning-fast URL shortener built with **Java*
 - **Frontend:** Vanilla HTML, CSS, JavaScript
 - **Deployment:** Docker
 
-## 🚀 Running Locally
+## 🚀 Running 
 
 ### Prerequisites
 - Java 21 or higher installed on your machine.
